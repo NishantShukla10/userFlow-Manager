@@ -1,0 +1,29 @@
+.action{
+    background: none !important;
+    border: none;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown_btn{
+    background: none !important;
+    border: none;
+}
+
+.dots{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.table td, 
+.table th {
+  vertical-align: middle !important;
+}
+
+.user-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
