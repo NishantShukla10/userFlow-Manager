@@ -75,3 +75,34 @@ The project is organized into two repositories/submodules:
    ```bash
    cd client
    npm start
+  Frontend runs on: http://localhost:3000
+
+
+## 📸 Screenshots
+
+### Homepage
+![Homepage Screenshot](./client/public/userhome.png)
+
+### User Details
+![User Details Screenshot](./client/public/userview.png)
+
+### Add User
+![User Form Screenshot](./client/public/userregister.png)
+
+### Edit User
+![User Edit Screenshot](./client/public/useredit.png)
+
+### Search Users
+![Search Screenshot](./client/public/usersearch.png)
+
+### Filter by Gender
+![Filter by Gender Screenshot](./client/public/filterbygender.png)
+
+### Sort by Value
+![Sort by Value Screenshot](./client/public/filterbyvalue.png)
+
+### Filter by Status
+![Filter by Status Screenshot](./client/public/filterbystatus.png)
+
+## Contributing  
+Contributions, issues, and feature requests are welcome!
