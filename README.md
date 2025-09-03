@@ -1,4 +1,4 @@
-# Userflow Manager
+# 🌐 Userflow Manager App
 
 A **MERN stack application** for managing users with full CRUD functionality, real-time data updates, and advanced filtering and search capabilities.
 
@@ -7,14 +7,17 @@ A **MERN stack application** for managing users with full CRUD functionality, re
 Userflow Manager allows administrators to efficiently manage users with:
 
 - Add, edit, delete, and view users in detail.  
-- Toggle user status between **active** and **inactive**.  
+- Toggle user status between **active** and **inactive**.
+- Upload images using Cloudinary
 - Dynamic **filters** (gender, status), **sorting**, **pagination**, and **search**.  
 - Seamless integration of **React frontend** with **Express & MongoDB backend** for real-time data management.
 
 
 ## Tech Stack  
 - **Frontend:** React
-- **Backend:** Express/Node
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (via Mongoose)
+- **File Storage:** Cloudinary
 - **State Management:** Context
 - **Styling:** Bootstrap, CSS
 - **UI Enhancements:** React Icons, React Toastify, React Hot Toast
@@ -37,8 +40,9 @@ The project is organized into two repositories/submodules:
 
 1. Clone the repository  
    ```bash
-   git clone --recurse-submodules <main-repo-url>
-   cd <project-root>
+   git clone https://github.com/NishantShukla10/userflow-manager-backend.git
+   cd userflow-manager-backend
+
 
 2. Install dependencies(Frontend)
    ```bash
@@ -54,12 +58,15 @@ The project is organized into two repositories/submodules:
 
 1. Backend(server/.env)
    ```bash
-   MONGO_URI=<Your MongoDB connection string>
+   MONGO_URI="Your MongoDB connection string"
    PORT=5000
+   CLOUD_NAME=your_cloudinary_cloud_name
+   CLOUD_API_KEY=your_cloudinary_api_key
+   CLOUD_API_SECRET=your_cloudinary_api_secret
    
 2. Frontend (client/.env)
    ```bash
-   REACT_APP_API_URL=http://localhost:5000/api
+   REACT_APP_API_URL=http://localhost:5000/
 
 
 ## Running the Application
@@ -106,3 +113,4 @@ The project is organized into two repositories/submodules:
 
 ## Contributing  
 Contributions, issues, and feature requests are welcome!
+
